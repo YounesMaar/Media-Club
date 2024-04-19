@@ -12,23 +12,25 @@ import { buttonVariants } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div className="container fixed top-0 backdrop-blur-sm bg-transparent shadow-sm shadow-black w-full z-[9999]">
+    <div className="nav-bar container fixed top-0 backdrop-blur-sm bg-transparent shadow-sm shadow-black w-full z-[9999]">
       <div className="flex justify-between items-center">
-        <Image
-          src="/logo.png"
-          alt="logo"
-          width={140}
-          style={{
-            height: "auto",
-            width: "auto",
-          }}
-          height={50}
-          priority
-        />
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={140}
+            style={{
+              height: "auto",
+              width: "auto",
+            }}
+            height={50}
+            priority
+          />
+        </Link>
         <div className="md:flex hidden gap-8 items-center">
           {Links.map((link, i) => (
             <Link
-              className="font-normal uppercase text-shadow-md"
+              className="text-white ont-normal uppercase text-shadow-md"
               key={i}
               href={link.href}
             >

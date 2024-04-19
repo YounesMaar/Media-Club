@@ -1,33 +1,23 @@
-import React, { useEffect } from "react";
-import { AspectRatio } from "../ui/aspect-ratio";
-import Image from "next/image";
 import { Button } from "../ui/button";
 
 const Hero = () => {
-  // useEffect(() => {}, []);
   return (
-    <div className="container">
-      <div className="w-full bg-black">
-        <AspectRatio
-          // TODO: fix the phone view
-          ratio={20 / 9}
-          className="flex flex-col items-center justify-center"
-        >
-          <Image
-            src="/logo.png"
-            alt="Image"
-            className="rounded-md object-cover"
-            width={300}
-            height={300}
-            style={{
-              height: "auto",
-              width: "auto",
-            }}
-          />
-          <Button className="uppercase rounded-full bg-gray-500">
-            commmencer l'aventure
-          </Button>
-        </AspectRatio>
+    <div className="relative w-full h-[100vh]">
+      <div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-20" />
+
+      <video
+        className="w-full h-full object-cover"
+        controls={false}
+        loop
+        autoPlay
+      >
+        <source src="/creative_agency.mp4" type="video/mp4" />
+      </video>
+
+      <div className="absolute w-full flex justify-end h-full bg-transparent items-center flex-col top-0 left-0 py-48">
+        <Button className="uppercase rounded-full bg-gray-500">
+          commmencer l'aventure
+        </Button>
       </div>
     </div>
   );

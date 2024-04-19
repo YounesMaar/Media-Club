@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layouts/Footer";
+import Animation from "@/components/Animation";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lato.className}>
+        <Animation />
         <Navbar />
         <main className="">{children}</main>
         <Footer />

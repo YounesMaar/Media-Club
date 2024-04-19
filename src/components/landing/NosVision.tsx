@@ -1,41 +1,7 @@
-"use client";
-
-import { ScrollTrigger, gsap } from "@/lib/gsap";
-import { useGSAP } from "@gsap/react";
 import Image from "next/image";
-import { useRef } from "react";
 import { Button } from "../ui/button";
 
 const NosVisionPage = () => {
-  const phoneRef = useRef<HTMLImageElement>(null);
-  // animation
-  useGSAP(() => {
-    ScrollTrigger.normalizeScroll(true);
-
-    ScrollTrigger.create({
-      trigger: phoneRef.current,
-      pin: true,
-      start: "100px center",
-      end: "+=1900",
-    });
-
-    // ===========#######=========
-    // height stacked pinning Effect
-    let panels = gsap.utils.toArray(".panel");
-    // we'll create a ScrollTrigger for each panel just to track when each panel's top hits the top of the viewport (we only need this for snapping)
-
-    panels.forEach((panel, i) => {
-      ScrollTrigger.create({
-        trigger: panel as HTMLDivElement,
-        start: () =>
-          // @ts-ignore
-          panel.offsetHeight < window.innerHeight ? "top top" : "bottom bottom",
-        pin: true,
-        pinSpacing: false,
-      });
-    });
-  });
-
   return (
     <div id="smooth-wrapper" className="bg-white">
       <div id="smooth-content">
@@ -54,7 +20,7 @@ const NosVisionPage = () => {
             alt="scroller"
             height={400}
             width={400}
-            ref={phoneRef}
+            className="phone-mockup"
             priority
           />
         </div>

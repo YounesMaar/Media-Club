@@ -21,32 +21,19 @@ const GalleryComponent = () => {
       <div className="relative flex justify-center gap-3 bg-black px-10 my-5 flex-wrap overflow-hidden">
         <div className="lg:block hidden absolute z-[99999] -top-24 left-1/2 -translate-x-1/2 w-[650px] h-[150px] bg-white rounded-[50%]" />
         <div className="absolute z-[99999] -bottom-24 left-1/2 -translate-x-1/2 w-[650px] h-[150px] bg-white lg:block hidden rounded-[50%]" />
-        <Swiper
-          slidesPerView={5}
-          spaceBetween={5}
-          autoplay={{
-            delay: 10000,
-            disableOnInteraction: false,
-            reverseDirection: true,
-            waitForTransition: false,
-          }}
-          centeredSlides={true}
-          loop={true}
-          modules={[Autoplay]}
-          className="mySwiper"
-        >
+        <div className="flex gap-10 flex-nowrap">
           {Galery.map((item, i) => (
-            <SwiperSlide key={i}>
-              <Image
-                src={item.image}
-                alt={item.label}
-                width={200}
-                height={400}
-                className="object-center"
-              />
-            </SwiperSlide>
+            <Image
+              loading="lazy"
+              key={i}
+              src={item.image}
+              alt={item.label}
+              width={200}
+              height={400}
+              className="object-center"
+            />
           ))}
-        </Swiper>
+        </div>
       </div>
       <div className="py-20 md:p-6 bg-black text-white panel">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
@@ -76,6 +63,7 @@ const GalleryComponent = () => {
               }}
               width={200}
               height={200}
+              loading="lazy"
             />
           </div>
         </div>

@@ -1,19 +1,19 @@
 export const Links = [
   {
     label: "agency",
-    href: "/",
+    href: "/agency",
   },
   {
     label: "expertises",
-    href: "/",
+    href: "/expertises",
   },
   {
     label: "projects",
-    href: "/",
+    href: "/projects",
   },
   {
     label: "mediatalk",
-    href: "/",
+    href: "/mediatalk",
   },
 ];
 
@@ -63,30 +63,93 @@ export const Galery = [
 export const Secteurs = [
   {
     label: "agency",
-    image: "/secteurs/image-1.jpeg",
+    image: "/secteurs/image1.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-2.jpeg",
+    image: "/secteurs/image2.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-3.jpeg",
+    image: "/secteurs/image3.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-4.jpeg",
+    image: "/secteurs/image4.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-5.jpeg",
+    image: "/secteurs/image5.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-6.jpeg",
+    image: "/secteurs/image6.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image-7.jpeg",
+    image: "/secteurs/image7.jpg",
+  },
+  {
+    label: "agency",
+    image: "/secteurs/image8.jpg",
+  },
+  {
+    label: "agency",
+    image: "/secteurs/image9.jpg",
+  },
+];
+
+export const Services = [
+  {
+    label: "agency",
+    image: "/services/image1.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image2.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image3.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image4.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image5.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image6.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image7.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image8.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image9.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image10.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image11.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image12.jpg",
+  },
+  {
+    label: "agency",
+    image: "/services/image13.jpg",
   },
 ];

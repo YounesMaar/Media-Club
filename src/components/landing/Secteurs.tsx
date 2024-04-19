@@ -21,6 +21,7 @@ const SecteursPage = () => {
               alt={secteur.label}
               width={250}
               height={250}
+              loading="lazy"
               className="rounded-md object-cover aspect-square grayscale hover:grayscale-0 transition-all"
             />
           </div>
