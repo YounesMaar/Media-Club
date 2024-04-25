@@ -3,6 +3,7 @@ import Hero from "@/components/landing/Hero";
 import NosVisionPage from "@/components/landing/NosVision";
 import Secteurs from "@/components/landing/Secteurs";
 
+
 const HomePage = () => {
   return (
     <div className="">
@@ -22,7 +23,9 @@ const HomePage = () => {
       </div>
       {/* section 5 */}
       <Secteurs />
-      <div></div>
+      <div>
+      
+      </div>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import "./globals.css";
 import Footer from "@/components/layouts/Footer";
 import Animation from "@/components/Animation";
 
+
 const lato = Lato({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],

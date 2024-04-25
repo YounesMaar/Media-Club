@@ -16,6 +16,24 @@ export const Links = [
     href: "/mediatalk",
   },
 ];
+export const SocialMedia = [
+  {
+    label: "Facebook",
+    href: "/https://www.facebook.com/",
+  },
+  {
+    label: "Linkden",
+    href: "/https://www.Linkden.com",
+  },
+  {
+    label: "Instagram",
+    href: "/https://www.instagram.com",
+  },
+  {
+    label: "Twiter",
+    href: "/https://www.x.com",
+  },
+];
 
 export const Galery = [
   {
