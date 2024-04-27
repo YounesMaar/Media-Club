@@ -1,11 +1,13 @@
+import { BriefcaseBusiness, Heart, Rocket, Zap } from "lucide-react";
+
 export const Links = [
   {
     label: "agency",
     href: "/agency",
   },
   {
-    label: "expertises",
-    href: "/expertises",
+    label: "experties",
+    href: "/experties",
   },
   {
     label: "projects",
@@ -169,5 +171,28 @@ export const Services = [
   {
     label: "agency",
     image: "/services/image13.jpg",
+  },
+];
+
+export const experties_services = [
+  {
+    Icon: Heart,
+    body: "BRANDING & NAMING",
+    href: "/",
+  },
+  {
+    Icon: BriefcaseBusiness,
+    body: "Stratégie De Marque ",
+    href: "/",
+  },
+  {
+    Icon: Zap,
+    body: "BRANDING & NAMING",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "Référencement Naturel Et Payant",
+    href: "/",
   },
 ];

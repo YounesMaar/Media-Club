@@ -81,9 +81,9 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        Poppins: "Poppins sans-serif",
-        Space: "Space Grotesk",
-        Quicksand: "Quicksand",
+        poppins: "Poppins sans-serif",
+        grotesk: "Space Grotesk",
+        quicksand: "Quicksand",
       },
     },
   },

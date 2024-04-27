@@ -9,10 +9,18 @@ import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "../ui/button";
+import { FC } from "react";
+import { cn } from "@/lib/utils";
 
-const Navbar = () => {
+interface NavbarProps extends Partial<HTMLDivElement> {}
+const Navbar: FC<NavbarProps> = ({ className }) => {
   return (
-    <div className="nav-bar container fixed top-0 backdrop-blur-sm bg-transparent shadow-sm shadow-black w-full z-[9999]">
+    <div
+      className={cn(
+        "nav-bar container fixed top-0 backdrop-blur-sm bg-transparent shadow-sm shadow-black w-full z-[9999]",
+        className
+      )}
+    >
       <div className="flex justify-between items-center">
         <Link href="/">
           <Image

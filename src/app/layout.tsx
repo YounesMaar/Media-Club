@@ -5,7 +5,6 @@ import "./globals.css";
 import Footer from "@/components/layouts/Footer";
 import Animation from "@/components/Animation";
 
-
 const lato = Lato({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],
@@ -26,7 +25,7 @@ export default function RootLayout({
       <body className={lato.className}>
         <Animation />
         <Navbar />
-        <main className="">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
