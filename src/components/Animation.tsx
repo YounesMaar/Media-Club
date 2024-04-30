@@ -1,4 +1,5 @@
 "use client";
+
 import { ScrollTrigger, gsap } from "@/lib/gsap";
 import { animateFrom, hide } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
@@ -7,9 +8,15 @@ const Animation = () => {
   /**
    * Accueil page animation animation
    */
+
+  // const [mounted, setMounted] = useStagencyate(false);
+  // useEffect(() => {
+  //   setMounted(true);
+  // });
+  // if (mounted) return null;
+
   useGSAP(() => {
     ScrollTrigger.normalizeScroll(true);
-
     ScrollTrigger.create({
       trigger: ".phone-mockup",
       pin: true,
@@ -17,16 +24,13 @@ const Animation = () => {
       end: "+=1900",
     });
 
-    // ===========#######=========
-    // height stacked pinning Effect
+    // Height-stacked pinning effect
     let panels = gsap.utils.toArray(".panel");
-    // we'll create a ScrollTrigger for each panel just to track when each panel's top hits the top of the viewport (we only need this for snapping)
 
-    panels.forEach((panel, i) => {
+    panels.forEach((panel: any) => {
       ScrollTrigger.create({
         trigger: panel as HTMLDivElement,
         start: () =>
-          // @ts-ignore
           panel.offsetHeight < window.innerHeight ? "top top" : "bottom bottom",
         pin: true,
         pinSpacing: false,
@@ -129,6 +133,30 @@ const Animation = () => {
    * start services animation
    */
 
+  /**
+   * branding parallax effect
+   */
+
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#hero",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,
+      },
+    });
+
+    gsap.utils.toArray(".parallax").forEach((layer: any) => {
+      const depth = layer.dataset.depth;
+      const movement = -(layer.offsetHeight * depth);
+      tl.to(layer, { y: movement, ease: "none" }, 10);
+    });
+  });
+
+  /**
+   * end branding parallax effect
+   */
   return null;
 };
 

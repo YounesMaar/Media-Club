@@ -260,14 +260,17 @@ function Expertises() {
             </div>
           </div>
         </div>
-        <div className="container bg-white flex flex-col justify-center items-center gap-y-4 py-10">
-          <h1 className="text-cyan-400 font-bold text-4xl">What's Next</h1>
-          <h1 className="font-bold text-4xl">Let's work together</h1>
+        <div
+          style={{
+            backgroundImage: "url('/experties/work.png')",
+          }}
+          className="container bg-white flex flex-col justify-center items-center gap-y-4 py-10 bg-center bg-cover h-[50vh]"
+        >
           <Link
             href="/contact"
             className={buttonVariants({
               variant: "default",
-              size: "customized",
+              size: "icon",
               className:
                 "px-36 rounded-full py-4 mt-20 text-lg bg-zinc-400 text-black",
             })}

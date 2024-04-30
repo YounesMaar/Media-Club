@@ -12,7 +12,7 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "Media Capital",
-  description: "Media Capital is a service that...",
+  description: "Media Capital is a service that do this and this",
 };
 
 export default function RootLayout({
