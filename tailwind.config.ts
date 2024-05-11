@@ -82,8 +82,11 @@ const config = {
       },
       fontFamily: {
         poppins: "Poppins sans-serif",
-        grotesk: "Space Grotesk",
+        Grotesk: "Space Grotesk, sans-serif",
         quicksand: "Quicksand",
+      },
+      background: {
+        hslb: "hsl(0, 0%, 89%)"
       },
     },
   },

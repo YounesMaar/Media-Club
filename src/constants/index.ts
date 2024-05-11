@@ -196,3 +196,21 @@ export const experties_services = [
     href: "/",
   },
 ];
+export const Content_Brand = [
+  {
+    label:"Branding Content",
+    image:"galery/Content1.png" 
+  },
+  {
+    label:"Branding Content",
+    image:"galery/Content2.png" 
+  },
+  {
+    label:"Branding Content",
+    image:"galery/Content3.png" 
+  },
+  {
+    label:"Branding Content",
+    image:"galery/Content4.png" 
+  },
+];

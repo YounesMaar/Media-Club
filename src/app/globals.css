@@ -134,3 +134,7 @@
     background-position: 35% bottom;
   }
 }
+.CardRefernc:hover{
+  transition: all 0.8s ease;
+  
+}
