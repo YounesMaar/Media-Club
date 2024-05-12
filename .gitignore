@@ -37,4 +37,12 @@ next-env.d.ts
 
 #public folder
 
-/public
+/public/brand-content
+/public/branding
+/public/expoerties
+/public/galery
+/public/referencement
+/public/secteurs
+/public/services
+/public/strategy
+/public/valuer
