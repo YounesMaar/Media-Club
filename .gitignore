@@ -37,14 +37,4 @@ next-env.d.ts
 
 #public folder
 
-/public/brand-content
-/public/branding
-/public/expoerties
-/public/galery
-/public/referencement
-/public/secteurs
-/public/services
-/public/strategy
-/public/valuer
-/public/creative_agency.mp4
 /public
