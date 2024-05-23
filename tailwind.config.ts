@@ -89,7 +89,7 @@ const config = {
         quicksand: "Quicksand",
       },
       background: {
-        hslb: "hsl(0, 0%, 89%)"
+        hslb: "hsl(0, 0%, 89%)",
       },
     },
   },

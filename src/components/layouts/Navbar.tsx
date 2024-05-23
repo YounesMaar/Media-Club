@@ -24,7 +24,7 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
       <div className="flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="https://i.ibb.co/pbV66f4/logo.png"
             alt="logo"
             width={140}
             style={{

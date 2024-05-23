@@ -3,6 +3,7 @@ import Hero from "@/components/landing/Hero";
 import NosVisionPage from "@/components/landing/NosVision";
 import Secteurs from "@/components/landing/Secteurs";
 
+
 const HomePage = () => {
   return (
     <div className="">

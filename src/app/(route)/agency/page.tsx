@@ -34,7 +34,7 @@ const Agency = () => {
         body="Développer le business des entreprises en exploitant pleinement le potentiel du digital dans une logique d’investissement optimisé pour atteindre des performances immédiates et durables. "
         button
         buttonLabel="Explorez plus!"
-        backgroundImage="url('/hero2.jpg')"
+        backgroundImage="url('https://i.ibb.co/5rYYjcG/hero2.jpg')"
       />
 
       <div className="container py-6 grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-2 bg-black">
