@@ -137,4 +137,22 @@
 .CardRefernc:hover{
   transition: all 0.8s ease;
   
+  
+}
+@media only screen and (max-width: 1280px) {
+  .ArrowDown {
+    display:none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .ArrowDown {
+    display:block;
+  }
+  .ArrowRight{
+    display: none;
+  }
+  .collum{
+    display: flex;
+    flex-direction: column;
+  }
 }

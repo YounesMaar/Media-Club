@@ -19,6 +19,9 @@ const config = {
       },
     },
     extend: {
+        backgroundImage: {
+        'SocialMedia': "url('/Meta.png')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -108,6 +111,7 @@ const config = {
         { values: theme("textShadow") }
       );
     }),
+  
   ],
 } satisfies Config;
 
