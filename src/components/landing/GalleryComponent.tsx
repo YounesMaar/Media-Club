@@ -1,5 +1,3 @@
-"use client";
-
 import { Galery } from "@/constants";
 import Image from "next/image";
 import { Button } from "../ui/button";

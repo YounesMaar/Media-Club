@@ -1,8 +1,7 @@
 import GalleryComponent from "@/components/landing/GalleryComponent";
 import Hero from "@/components/landing/Hero";
-import NosVisionPage from "@/components/landing/NosVision";
+import NosVision from "@/components/landing/NosVision";
 import Secteurs from "@/components/landing/Secteurs";
-
 
 const HomePage = () => {
   return (
@@ -12,7 +11,7 @@ const HomePage = () => {
       {/* section 2 */}
       <GalleryComponent />
       {/* section 3 */}
-      <NosVisionPage />
+      <NosVision />
       {/* section 4 */}
       <div className="panel h-[100vh] bg-white text-black flex items-center justify-center text-center">
         <p className="underline text-xl md:text-4xl px-20">

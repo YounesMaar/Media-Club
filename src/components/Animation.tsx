@@ -15,29 +15,6 @@ const Animation = () => {
   // });
   // if (mounted) return null;
 
-  useGSAP(() => {
-    ScrollTrigger.normalizeScroll(true);
-    ScrollTrigger.create({
-      trigger: ".phone-mockup",
-      pin: true,
-      start: "100px center",
-      end: "+=1900",
-    });
-
-    // Height-stacked pinning effect
-    let panels = gsap.utils.toArray(".panel");
-
-    panels.forEach((panel: any) => {
-      ScrollTrigger.create({
-        trigger: panel as HTMLDivElement,
-        start: () =>
-          panel.offsetHeight < window.innerHeight ? "top top" : "bottom bottom",
-        pin: true,
-        pinSpacing: false,
-      });
-    });
-  });
-
   /**
    * end Accueil page animation
    * navbar animation
@@ -65,25 +42,6 @@ const Animation = () => {
    * valeur section animation
    */
 
-  useGSAP(() => {
-    gsap.utils.toArray(".gs_reveal").forEach(function (elem) {
-      hide(elem); // assure that the element is hidden when scrolled into view
-
-      ScrollTrigger.create({
-        trigger: elem as any,
-        // markers: true,
-        onEnter: function () {
-          animateFrom(elem);
-        },
-        onEnterBack: function () {
-          animateFrom(elem, -1);
-        },
-        onLeave: function () {
-          hide(elem);
-        }, // assure that the element is hidden when scrolled into view
-      });
-    });
-  });
   /**
    * end valeur section animation
    * start services animation
