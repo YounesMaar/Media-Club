@@ -214,3 +214,37 @@ export const Content_Brand = [
     image:"galery/Content4.png" 
   },
 ];
+export const initialItems = [
+  {
+    id: 1,
+    isVisible: false,
+    color: true,
+    title: "Comment identifier les UGC ?",
+    content:
+      "Nous disposons de multiples techniques et outils pour les repérer automatiquement : recherche de mentions, utilisation de hashtags, mise en place d'outils de veille sur les mots-clés liés à votre marque...  ",
+  },
+  {
+    id: 2,
+    isVisible: false,
+    color: true,
+    title: "Comment obtenir davantage d'UGC ? ",
+    content:
+      "Si vous êtes satisfait des contenus générés par vos utilisateurs et que vous souhaitez en obtenir davantage, nous disposons du savoir-faire nécessaire pour produire plus fréquemment, avec une plus grande variété de formats et avec une meilleure qualité. ",
+  },
+  {
+    id: 3,
+    isVisible: false,
+    color: true,
+    title: "Quelles cibles souhaitez-vous toucher grâce à ces UGC ?",
+    content:
+      "Il est tout à fait possible de générer des UGC pour une audience spécifique. Vous êtes curieux de savoir comment ? Prenez contact avec nous ! ",
+  },
+  {
+    id: 4,
+    isVisible: false,
+    color: true,
+    title: "Comment exploiter les UGC ?",
+    content:
+      "Vous disposez de contenus UGC, c'est excellent. Il ne vous plus qu’à décider comment l’utiliser et quels canaux de communication utiliser pour le diffuser, Là encore, vous aurez besoin de notre expertise pour vous guider et optimiser votre stratégie UGC. ",
+  },
+];

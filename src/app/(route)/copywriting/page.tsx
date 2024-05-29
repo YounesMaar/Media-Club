@@ -35,7 +35,8 @@ function copywriting() {
         </div>
       </div>
       
-    </div>
+    
+</div>
   );
 }
 

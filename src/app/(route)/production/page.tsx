@@ -84,8 +84,13 @@ function production() {
                 </section>
               </div>
               <div className='flex justify-center '>
-                <FaArrowRight fontSize={20} className='ArrowRight' />
-                <FaArrowDown fontSize={20} className=' ArrowDown '
+                <FaArrowRight
+                  fontSize={20}
+                  className='ArrowRight'
+                />
+                <FaArrowDown
+                  fontSize={20}
+                  className=' ArrowDown '
                 />
               </div>
             </div>
@@ -105,26 +110,31 @@ function production() {
                 </section>
               </div>
               <div className='flex justify-center '>
-                <FaArrowRight fontSize={20} className='ArrowRight'/>
-                <FaArrowDown fontSize={20} className=' ArrowDown'  />
+                <FaArrowRight
+                  fontSize={20}
+                  className='ArrowRight'
+                />
+                <FaArrowDown
+                  fontSize={20}
+                  className=' ArrowDown'
+                />
               </div>
             </div>
-           
-              <div className='CardRefernc rounded-[30px] w-[275px] h-[352px] hover:bg-slate-200 hover:text-xl hover:text-black'>
-                <section className='text-center flex flex-col justify-center items-center my-8 gap-y-6'>
-                  <h2 className='text-[#416BFF]'>Script :  </h2>
-                  <p className='md:w-2/2 text-[13px]'>
-                    L'improvisation n'a pas sa place dans les vidéos ! Chaque
-                    mot prononcé doit être soigneusement sélectionné et préparé
-                    à l'avance pour garantir la crédibilité. Le script joue un
-                    rôle crucial en travaillant sur le contenu de la vidéo et en
-                    structurant le discours.   Il garantit la fluidité des idées
-                    et contribue à la création d’une histoire .  C'est un
-                    élément indispensable pour maintenir l'intérêt du spectateur
-                    tout au long de la vidéo !.
-                  </p>
-                </section>
-     
+
+            <div className='CardRefernc rounded-[30px] w-[275px] h-[352px] hover:bg-slate-200 hover:text-xl hover:text-black'>
+              <section className='text-center flex flex-col justify-center items-center my-8 gap-y-6'>
+                <h2 className='text-[#416BFF]'>Script :  </h2>
+                <p className='md:w-2/2 text-[13px]'>
+                  L'improvisation n'a pas sa place dans les vidéos ! Chaque mot
+                  prononcé doit être soigneusement sélectionné et préparé à
+                  l'avance pour garantir la crédibilité. Le script joue un rôle
+                  crucial en travaillant sur le contenu de la vidéo et en
+                  structurant le discours.   Il garantit la fluidité des idées
+                  et contribue à la création d’une histoire .  C'est un élément
+                  indispensable pour maintenir l'intérêt du spectateur tout au
+                  long de la vidéo !.
+                </p>
+              </section>
             </div>
           </div>
 
