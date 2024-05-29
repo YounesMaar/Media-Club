@@ -5,8 +5,11 @@ import React from "react";
 
 const Strategy = () => {
   return (
-    <div>
-      <div className="h-[100vh]"></div>
+    <>
+      <div
+        className="h-[100vh] bg-cover bg-center"
+        style={{ backgroundImage: "url('/strategy/hero.jpg')" }}
+      ></div>
       <div className="container mx-auto space-y-6 bg-black py-10 text-white">
         <div className="flex gap-x-10 justify-center flex-col md:flex-row items-center">
           <div className="flex justify-center flex-col gap-y-10 items-start w-2/3">
@@ -24,7 +27,7 @@ const Strategy = () => {
             </p>
           </div>
           <Image
-            src="/strategy/image1.png"
+            src="https://i.ibb.co/YPWJCzz/image1.jpg"
             alt="image1"
             width={250}
             height={250}
@@ -34,10 +37,10 @@ const Strategy = () => {
       <div className="mx-auto space-y-6 py-6 relative">
         <div className="flex gap-x-10 justify-center flex-col items-center">
           <Image
-            src="/strategy/image2.png"
+            src="https://i.ibb.co/HLZbMFs/image1.png"
             alt="image1"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
             className="absolute -bottom-2 left-0 hidden md:block"
           />
           <div className="flex justify-center flex-col gap-y-10 items-center md:items-end md:w-2/3">
@@ -74,10 +77,10 @@ const Strategy = () => {
             </p>
           </div>
           <Image
-            src="/strategy/image3.png"
+            src="https://i.ibb.co/bvn8ZHt/image3.jpg"
             alt="image1"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
           />
         </div>
         <div className="flex justify-center items-center">
@@ -93,7 +96,7 @@ const Strategy = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,7 +1,33 @@
+"use client";
+
 import Image from "next/image";
 import { Button } from "../ui/button";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger, gsap } from "@/lib/gsap";
 
 const NosVisionPage = () => {
+  useGSAP(() => {
+    ScrollTrigger.normalizeScroll(true);
+    ScrollTrigger.create({
+      trigger: ".phone-mockup",
+      pin: true,
+      start: "100px center",
+      end: "+=1900",
+    });
+
+    // Height-stacked pinning effect
+    let panels = gsap.utils.toArray(".panel");
+
+    panels.forEach((panel: any) => {
+      ScrollTrigger.create({
+        trigger: panel as HTMLDivElement,
+        start: () =>
+          panel.offsetHeight < window.innerHeight ? "top top" : "bottom bottom",
+        pin: true,
+        pinSpacing: false,
+      });
+    });
+  });
   return (
     <div id="smooth-wrapper" className="bg-white">
       <div id="smooth-content">

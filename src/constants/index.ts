@@ -40,137 +40,137 @@ export const SocialMedia = [
 export const Galery = [
   {
     label: "agency",
-    image: "/galery/image1.jpeg",
+    image: "https://i.ibb.co/RDZD8yG/image1.jpg",
   },
   {
     label: "expertises",
-    image: "/galery/image2.jpeg",
+    image: "https://i.ibb.co/Vv1Ts4q/image2.jpg",
   },
   {
     label: "projects",
-    image: "/galery/image3.jpeg",
+    image: "https://i.ibb.co/bNd3Vg3/image3.jpg",
   },
   {
     label: "mediatalk",
-    image: "/galery/image4.jpeg",
+    image: "https://i.ibb.co/y0NxfYm/image4.jpg",
   },
   {
     label: "mediatalk",
-    image: "/galery/image5.jpeg",
+    image: "https://i.ibb.co/K9mgYWz/image5.jpg",
   },
   {
     label: "agency",
-    image: "/galery/image1.jpeg",
+    image: "https://i.ibb.co/RDZD8yG/image1.jpg",
   },
   {
     label: "expertises",
-    image: "/galery/image2.jpeg",
+    image: "https://i.ibb.co/Vv1Ts4q/image2.jpg",
   },
   {
     label: "projects",
-    image: "/galery/image3.jpeg",
+    image: "https://i.ibb.co/bNd3Vg3/image3.jpg",
   },
   {
     label: "mediatalk",
-    image: "/galery/image4.jpeg",
+    image: "https://i.ibb.co/y0NxfYm/image4.jpg",
   },
   {
     label: "mediatalk",
-    image: "/galery/image5.jpeg",
+    image: "https://i.ibb.co/K9mgYWz/image5.jpg",
   },
 ];
 
 export const Secteurs = [
   {
     label: "agency",
-    image: "/secteurs/image1.jpg",
+    image: "https://i.ibb.co/kcWB4xy/image1.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image2.jpg",
+    image: "https://i.ibb.co/dKYf4WC/image2.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image3.jpg",
+    image: "https://i.ibb.co/30g78RB/image3.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image4.jpg",
+    image: "https://i.ibb.co/4PxW776/image4.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image5.jpg",
+    image: "https://i.ibb.co/99LZWNJ/image5.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image6.jpg",
+    image: "https://i.ibb.co/PF1ZPxS/image6.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image7.jpg",
+    image: "https://i.ibb.co/WF6R0zt/image7.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image8.jpg",
+    image: "https://i.ibb.co/6P1HqT0/image8.jpg",
   },
   {
     label: "agency",
-    image: "/secteurs/image9.jpg",
+    image: "https://i.ibb.co/SPZ6Xyh/image9.jpg",
   },
 ];
 
 export const Services = [
   {
     label: "agency",
-    image: "/services/image1.jpg",
+    image: "https://i.ibb.co/z7GrHFZ/image1.jpg",
   },
   {
     label: "agency",
-    image: "/services/image2.jpg",
+    image: "https://i.ibb.co/PF1ZPxS/image2.jpg",
   },
   {
     label: "agency",
-    image: "/services/image3.jpg",
+    image: "https://i.ibb.co/ctcPypL/image3.jpg",
   },
   {
     label: "agency",
-    image: "/services/image4.jpg",
+    image: "https://i.ibb.co/Q905B1b/image4.jpg",
   },
   {
     label: "agency",
-    image: "/services/image5.jpg",
+    image: "https://i.ibb.co/PDjts2n/image5.jpg",
   },
   {
     label: "agency",
-    image: "/services/image6.jpg",
+    image: "https://i.ibb.co/HzpxQx1/image6.jpg",
   },
   {
     label: "agency",
-    image: "/services/image7.jpg",
+    image: "https://i.ibb.co/8x4cM1Z/image7.jpg",
   },
   {
     label: "agency",
-    image: "/services/image8.jpg",
+    image: "https://i.ibb.co/54bjkXN/image8.jpg",
   },
   {
     label: "agency",
-    image: "/services/image9.jpg",
+    image: "https://i.ibb.co/m5TvNNg/image9.jpg",
   },
   {
     label: "agency",
-    image: "/services/image10.jpg",
+    image: "https://i.ibb.co/cDGwSDN/image10.jpg",
   },
   {
     label: "agency",
-    image: "/services/image11.jpg",
+    image: "https://i.ibb.co/WFg4gJ9/image11.jpg",
   },
   {
     label: "agency",
-    image: "/services/image12.jpg",
+    image: "https://i.ibb.co/CPPpQdL/image12.jpg",
   },
   {
     label: "agency",
-    image: "/services/image13.jpg",
+    image: "https://i.ibb.co/vsY6DRB/image13.jpg",
   },
 ];
 
@@ -198,20 +198,20 @@ export const experties_services = [
 ];
 export const Content_Brand = [
   {
-    label:"Branding Content",
-    image:"galery/Content1.png" 
+    label: "Branding Content",
+    image: "/galery/Content1.png",
   },
   {
-    label:"Branding Content",
-    image:"galery/Content2.png" 
+    label: "Branding Content",
+    image: "/galery/Content2.png",
   },
   {
-    label:"Branding Content",
-    image:"galery/Content3.png" 
+    label: "Branding Content",
+    image: "/galery/Content3.png",
   },
   {
-    label:"Branding Content",
-    image:"galery/Content4.png" 
+    label: "Branding Content",
+    image: "/galery/Content4.png",
   },
 ];
 export const initialItems = [
