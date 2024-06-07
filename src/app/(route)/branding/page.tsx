@@ -1,3 +1,4 @@
+import Canvas from "@/components/Canvas";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,11 +7,8 @@ import React from "react";
 const BrandingPage = () => {
   return (
     <>
-      <div className="hero">
-        <div className="layer-bg layer parallax" data-depth="0.50"></div>
-        <div className="layer-1 layer parallax" data-depth="0.80"></div>
-        <div className="layer-2 layer parallax" data-depth="0.90"></div>
-        <div className="layer-3 layer parallax" data-depth="1"></div>
+      <div className="h-[100vh]">
+        <Canvas />
       </div>
 
       <div className="container mx-auto space-y-6 bg-black py-10 text-white">

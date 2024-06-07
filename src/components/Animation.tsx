@@ -1,7 +1,6 @@
 "use client";
 
 import { ScrollTrigger, gsap } from "@/lib/gsap";
-import { animateFrom, hide } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
 
 const Animation = () => {
@@ -9,16 +8,6 @@ const Animation = () => {
    * Accueil page animation animation
    */
 
-  // const [mounted, setMounted] = useStagencyate(false);
-  // useEffect(() => {
-  //   setMounted(true);
-  // });
-  // if (mounted) return null;
-
-  /**
-   * end Accueil page animation
-   * navbar animation
-   */
   useGSAP(() => {
     const showAnim = gsap
       .from(".nav-bar", {
@@ -95,22 +84,22 @@ const Animation = () => {
    * branding parallax effect
    */
 
-  useGSAP(() => {
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#hero",
-        start: "top top",
-        end: "bottom top",
-        scrub: true,
-      },
-    });
+  // useGSAP(() => {
+  //   const tl = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: "#hero",
+  //       start: "top top",
+  //       end: "bottom top",
+  //       scrub: true,
+  //     },
+  //   });
 
-    gsap.utils.toArray(".parallax").forEach((layer: any) => {
-      const depth = layer.dataset.depth;
-      const movement = -(layer.offsetHeight * depth);
-      tl.to(layer, { y: movement, ease: "none" }, 10);
-    });
-  });
+  //   gsap.utils.toArray(".parallax").forEach((layer: any) => {
+  //     const depth = layer.dataset.depth;
+  //     const movement = -(layer.offsetHeight * depth);
+  //     tl.to(layer, { y: movement, ease: "none" }, 10);
+  //   });
+  // });
 
   /**
    * end branding parallax effect
