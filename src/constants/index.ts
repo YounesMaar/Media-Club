@@ -183,16 +183,66 @@ export const experties_services = [
   {
     Icon: BriefcaseBusiness,
     body: "Stratégie De Marque ",
-    href: "/",
+    href: "/strategy",
   },
   {
     Icon: Zap,
     body: "BRANDING & NAMING",
-    href: "/",
+    href: "/branding",
   },
   {
     Icon: Rocket,
     body: "Référencement Naturel Et Payant",
+    href: "/reference",
+  },
+  {
+    Icon: Rocket,
+    body: "SOCIAL ADS",
+    href: "/social",
+  },
+  {
+    Icon: Rocket,
+    body: "Développement Web Et Mobile",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "Social Media Management ",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "UX, UI , Webdesign Et Motion Design",
+    href: "/motion-design",
+  },
+  {
+    Icon: Rocket,
+    body: "Photographie",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "Production De Vidéos",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "Copywriting",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "UGC",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "Personal Branding ",
+    href: "/",
+  },
+  {
+    Icon: Rocket,
+    body: "CONSULTATION",
     href: "/",
   },
 ];

@@ -29,13 +29,9 @@ function copywriting() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       
     
 </div>
-=======
-    </div>
->>>>>>> 0f789b2ac76797993b6ed157032c0aa077f54477
   );
 }
 

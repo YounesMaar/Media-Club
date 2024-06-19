@@ -7,18 +7,18 @@ import React from "react";
 const BrandingPage = () => {
   return (
     <>
-      <div className="h-[100vh]">
-        <Canvas />
+      <div className=' Cover_branding'>
+        <img src='https://i.ibb.co/DVSs2tD/Property-1-Variant5.png' />
       </div>
 
-      <div className="container mx-auto space-y-6 bg-black py-10 text-white">
-        <h1 className="underline text-2xl uppercase text-center">
+      <div className='container mx-auto space-y-6 bg-black py-10 text-white '>
+        <h1 className='underline text-2xl uppercase text-center'>
           chez media capital
         </h1>
 
-        <div className="flex gap-x-10 justify-center flex-col md:flex-row items-center">
-          <div className="flex justify-center flex-col gap-y-10 items-start w-2/3">
-            <p className="text-base w-2/3">
+        <div className='flex gap-x-10 justify-center flex-col md:flex-row items-center'>
+          <div className='flex justify-center flex-col gap-y-10 items-start w-2/3'>
+            <p className='text-base w-2/3'>
               notre mission est de comprendre votre marque, de lui donner vie et
               de l incarner avec passion. Nous nous efforçons de faire résonner
               votre marque et son storytelling sur tous les canaux d'expression,
@@ -26,35 +26,35 @@ const BrandingPage = () => {
             </p>
           </div>
           <Image
-            src="https://i.ibb.co/Z8rqJwk/image3.png"
-            alt="image3"
+            src='https://i.ibb.co/Z8rqJwk/image3.png'
+            alt='image3'
             width={250}
             height={250}
           />
         </div>
       </div>
-      <div className="container mx-auto py-10">
-        <div className="flex flex-between flex-col md:flex-row items-center justify-center">
+      <div className='container mx-auto py-10'>
+        <div className='flex flex-between flex-col md:flex-row items-center justify-center'>
           <Image
-            src="https://i.ibb.co/yBfWKR6/image2.png"
-            alt="image2"
+            src='https://i.ibb.co/yBfWKR6/image2.png'
+            alt='image2'
             width={200}
             height={200}
           />
-          <div className="space-y-4">
-            <h1 className="underline text-2xl uppercase space-y-6">
+          <div className='space-y-4'>
+            <h1 className='underline text-2xl uppercase space-y-6'>
               IDENTITES
             </h1>
-            <p className="text-base w-2/3">
+            <p className='text-base w-2/3'>
               Nous sommes des architectes de marque, façonnant des identités qui
               captivent et des images qui laissent une empreinte durable.
             </p>
           </div>
         </div>
       </div>
-      <div className="container mx-auto py-10">
-        <div className="flex flex-between flex-col md:flex-row items-center justify-center">
-          <p className="text-base w-2/3">
+      <div className='container mx-auto py-10'>
+        <div className='flex flex-between flex-col md:flex-row items-center justify-center'>
+          <p className='text-base w-2/3'>
             De la genèse de votre identité à son rayonnement sur tous les
             fronts, nous vous accompagnons à chaque étape. De la création de la
             plateforme de marque au choix du nom, de l'élaboration d’une charte
@@ -62,16 +62,16 @@ const BrandingPage = () => {
             expertise vous guide vers l'excellence.
           </p>
           <Image
-            src="https://i.ibb.co/m8rhXnX/image1.png"
-            alt="image1"
+            src='https://i.ibb.co/m8rhXnX/image1.png'
+            alt='image1'
             width={200}
             height={200}
           />
         </div>
       </div>
-      <div className="container mx-auto space-y-6 bg-black  text-white py-10">
-        <div className="flex flex-between flex-col items-center gap-8">
-          <p className="text-base w-2/3">
+      <div className='container mx-auto space-y-6 bg-black text-white py-10'>
+        <div className='flex flex-between flex-col items-center gap-8'>
+          <p className='text-base w-2/3'>
             Nous enracinerons vos produits et services dans l'esprit de vos
             consommateurs, en leur offrant une expérience immersive et cohérente
             à chaque point de contact avec votre marque.
@@ -81,8 +81,7 @@ const BrandingPage = () => {
               variant: "outline",
               className: "rounded-xl bg-black text-white",
             })}
-            href="/"
-          >
+            href='/'>
             Let’s connect
           </Link>
         </div>

@@ -1,3 +1,4 @@
+"use client"
 import Marquee from "@/components/Marque/Marque";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { experties_services } from "@/constants";
@@ -5,6 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import CountupSection from "./components/CountupSection";
 import { Badge } from "@/components/ui/badge";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 function Expertises() {
   return (
@@ -63,34 +69,44 @@ function Expertises() {
             </p>
           </div>
         </div>
-        <div
-          className='py-10 container mx-auto font-grotesk grid grid-cols-2 md:grid-cols-4 gap-10 flex-wrap bg-cover bg-center'
+        <Swiper
+          className='py-10 container mx-auto font-grotesk bg-cover bg-center h-[60vh] w-[95%]'
+          modules={[Pagination, Navigation]}
+          navigation={true}
+          slidesPerView={4}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
           style={{
             backgroundImage: 'url("/experties/wallpaper.png")',
           }}>
           {experties_services.map(({ Icon, body, href }, i) => (
-            <div
+            <SwiperSlide
               key={i}
-              className='border-[1px] border-secondary p-4 h-[300px] flex flex-col gap-10 text-white items-start justify-between'>
-              <div className='space-y-8'>
-                <Icon
-                  size={40}
-                  className='font-light text-secondary/50'
-                />
-                <h1 className='text-center text-xl'>{body}</h1>
+              className=' grid md:grid-cols-4 grid-cols-2'>
+              <div className='border-[1px] border-secondary p-4 h-[300px] flex flex-col gap-10 text-white items-start justify-between'>
+                <div className='space-y-8'>
+                  <Icon
+                    size={40}
+                    className='font-light text-secondary/50'
+                  />
+                  <h1 className='text-center text-xl'>{body}</h1>
+                </div>
+                <Link
+                  href={href}
+                  className={buttonVariants({
+                    size: "customized",
+                    variant: "outline",
+                    className: "rounded-full bg-transparent self-center",
+                  })}>
+                  Découvrir
+                </Link>
               </div>
-              <Link
-                href={href}
-                className={buttonVariants({
-                  size: "customized",
-                  variant: "outline",
-                  className: "rounded-full bg-transparent self-center",
-                })}>
-                Découvrir
-              </Link>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
         <div className='container py-10 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-white bg-[#131010]'>
           <div className='flex flex-col gap-10 items-center md:items-start'>
             <h1 className='text-2xl font-bold font-quicksand text-center md:text-left'>
